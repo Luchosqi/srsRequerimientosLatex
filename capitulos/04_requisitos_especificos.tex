@@ -1,0 +1,108 @@
+\chapter{Requisitos específicos}
+\orientacion{Esta es la sección más extensa e importante del documento. Debe contener una lista detallada y completa de los requisitos del sistema. El nivel de detalle debe permitir que el equipo de desarrollo diseñe un sistema que los satisfaga y que el equipo de pruebas determine si se cumplen.}
+
+Los requisitos se dispondrán en listas numeradas para facilitar su identificación, seguimiento, trazabilidad y validación (por ejemplo, RF 10, RF 10.1 y RF 10.2). Para cada requisito, complete los datos siguientes y describa el requisito. La distribución de los párrafos puede adaptarse si otra organización ofrece mayor claridad.
+
+\begin{longtable}{p{4.1cm}p{9.5cm}}
+\toprule
+\textbf{Dato del requisito} & \textbf{Valor} \\
+\midrule
+Número de requisito & \campo{Inserte aquí el texto} \\
+Nombre del requisito & \campo{Inserte aquí el texto} \\
+Tipo & $\square$ Requisito \quad $\square$ Restricción \\
+Fuente del requisito & \campo{Inserte aquí el texto} \\
+Prioridad & $\square$ Alta / esencial \quad $\square$ Media / deseada \quad $\square$ Baja / opcional \\
+\bottomrule
+\end{longtable}
+
+\section{Requisitos comunes de las interfaces}
+\campo{Inserte aquí el texto}
+\orientacion{Describa detalladamente todas las entradas y salidas del sistema de software.}
+
+\subsection{Interfaces de usuario}
+\campo{Inserte aquí el texto}
+\orientacion{Describa los requisitos de la interfaz de usuario. Puede utilizar descripciones textuales o pantallas. Si el cliente ha especificado el estilo o los colores, describa con precisión cómo se presentará el producto a sus usuarios.}
+
+\subsection{Interfaces de hardware}
+\campo{Inserte aquí el texto}
+\orientacion{Especifique las características lógicas de cada interfaz entre el producto y los componentes de hardware del sistema. Incluya las características de configuración.}
+
+\subsection{Interfaces de software}
+\campo{Inserte aquí el texto}
+\orientacion{Indique si el producto debe integrarse con otros productos de software. Para cada producto, especifique su descripción, el propósito de la interfaz y la definición de la interfaz (contenido y formato).}
+
+\subsection{Interfaces de comunicación}
+\campo{Inserte aquí el texto}
+\orientacion{Describa los requisitos de las interfaces de comunicación con otros sistemas e indique los protocolos utilizados.}
+
+\section{Requisitos funcionales}
+\campo{Inserte aquí el texto}
+\orientacion{Defina las acciones fundamentales que el software debe realizar al recibir información, procesarla y producir resultados. Incluya, cuando corresponda:}
+\begin{itemize}
+    \item Comprobación de la validez de las entradas.
+    \item Secuencia exacta de operaciones.
+    \item Respuesta ante situaciones anormales, como desbordamientos, fallos de comunicación y recuperación de errores.
+    \item Parámetros y generación de salidas.
+    \item Relaciones entre entradas y salidas, incluidas secuencias y fórmulas para convertir información.
+    \item Requisitos lógicos de la información que se almacenará en la base de datos, como el tipo de información y si es obligatoria.
+\end{itemize}
+Los requisitos funcionales pueden dividirse en subsecciones.
+
+\subsection{Requisito funcional 1}
+\campo{Inserte aquí la descripción del requisito}
+
+\subsection{Requisito funcional 2}
+\campo{Inserte aquí la descripción del requisito}
+
+\subsection{Requisito funcional 3}
+\campo{Inserte aquí la descripción del requisito}
+
+\subsection{Requisito funcional n}
+\campo{Inserte aquí la descripción del requisito}
+
+\section{Requisitos no funcionales}
+
+\subsection{Requisitos de rendimiento}
+\campo{Inserte aquí el texto}
+\orientacion{Especifique la carga que se espera que soporte el sistema: número de terminales, usuarios conectados simultáneamente, transacciones por segundo u otras medidas pertinentes. Los requisitos deben ser medibles. Por ejemplo: «el 95\% de las transacciones debe completarse en menos de un segundo».}
+
+\subsection{Seguridad}
+\campo{Inserte aquí el texto}
+\orientacion{Especifique cómo se protegerá el software frente a accesos, usos y sabotajes maliciosos, así como frente a modificaciones o destrucciones maliciosas o accidentales. Los requisitos pueden especificar:}
+\begin{itemize}
+    \item Uso de técnicas criptográficas.
+    \item Registro de actividad en archivos de bitácora (\textit{logs}).
+    \item Asignación de funcionalidades a módulos determinados.
+    \item Restricciones de comunicación entre módulos.
+    \item Comprobaciones de integridad de información crítica.
+\end{itemize}
+
+\subsection{Fiabilidad}
+\campo{Inserte aquí el texto}
+\orientacion{Especifique los factores de fiabilidad requeridos. Generalmente se expresan como el tiempo entre incidentes permisibles o el número total de incidentes permisibles.}
+
+\subsection{Disponibilidad}
+\campo{Inserte aquí el texto}
+\orientacion{Especifique la disponibilidad exigida al sistema, normalmente como porcentaje del tiempo durante el cual el software debe estar disponible.}
+
+\subsection{Mantenibilidad}
+\campo{Inserte aquí el texto}
+\begin{itemize}
+    \item Identifique el tipo de mantenimiento necesario y quién debe realizarlo, por ejemplo, usuarios o desarrolladores.
+    \item Especifique cuándo deben realizarse las tareas de mantenimiento, como la generación semanal o mensual de estadísticas de acceso.
+\end{itemize}
+
+\subsection{Portabilidad}
+\campo{Inserte aquí el texto}
+\orientacion{Especifique los atributos que facilitarán el traslado del software a otras plataformas o entornos. Pueden incluir:}
+\begin{itemize}
+    \item Porcentaje de componentes dependientes del servidor.
+    \item Porcentaje de código dependiente del servidor.
+    \item Uso de un lenguaje por su portabilidad.
+    \item Uso de un compilador o una plataforma de desarrollo determinados.
+    \item Uso de un sistema operativo determinado.
+\end{itemize}
+
+\section{Otros requisitos}
+\campo{Inserte aquí el texto}
+\orientacion{Incluya cualquier requisito que no corresponda a las secciones anteriores, por ejemplo, requisitos culturales, políticos o legales.}
